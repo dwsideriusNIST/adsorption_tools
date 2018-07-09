@@ -4,8 +4,7 @@ import json
 import requests
 
 #Defines an isotherm object class
-#NOTE: This class definition must be rewritten after the 2017 isotherm standard (multicomponent-capable)
-# has been implemented in the NIST ISODB API
+#NOTE: This class was rewritten in 2018 to be compatible with the 2017 isotherm standard (multicomponent-capable)
 class NIST_ISODB_isotherm:
     def __init__(self,filename):
         host='adsorption.nist.gov'
